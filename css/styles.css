@@ -492,23 +492,14 @@ img {
 }
 .test-div {
   position: relative;
+  overflow: hidden;
 }
-.sheet:hover .test-div .overflow-cards {
-  opacity: 1;
+.sheet:hover .overflow-cards {
+  /* opacity: 1; */
+  transform: translateY(0);
+  
+  
 }
-/* =======================синий фон на карточках=================== */
-/* .test-div::before {
-  position: absolute;
-  display: inline-block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(33, 150, 243,0.9);
-  opacity: 0;
-}
-
-
-/* =======================синий фон на карточках=================== */
 
 .overflow-cards {
   position: absolute;
@@ -516,10 +507,7 @@ img {
   left: 0;
   padding: 63px 23px;
 
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%); */
-  opacity: 0;
+  /* opacity: 0; */
   font-size: 18px;
   line-height: 1.55;
 
@@ -527,6 +515,11 @@ img {
 
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .title-text-secondary {
