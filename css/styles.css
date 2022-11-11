@@ -485,8 +485,6 @@ img {
 }
 
 .sheet:hover {
-  /* transform: translateY(-35px); */
-  /* opacity: 1; */
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -495,10 +493,7 @@ img {
   overflow: hidden;
 }
 .sheet:hover .overflow-cards {
-  /* opacity: 1; */
   transform: translateY(0);
-  
-  
 }
 
 .overflow-cards {
@@ -506,8 +501,6 @@ img {
   bottom: 0;
   left: 0;
   padding: 63px 23px;
-
-  /* opacity: 0; */
   font-size: 18px;
   line-height: 1.55;
 
@@ -519,7 +512,6 @@ img {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .title-text-secondary {
