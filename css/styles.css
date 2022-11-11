@@ -506,9 +506,7 @@ img {
   background-color: rgba(33, 150, 243,0.9);
   opacity: 0;
 }
-.test-div:hover::before {
-  opacity: 1;
-} */
+
 
 /* =======================синий фон на карточках=================== */
 
