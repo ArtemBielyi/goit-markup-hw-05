@@ -485,7 +485,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sheet:hover {
+.sheet:hover,
+.sheet:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -632,6 +633,8 @@ footer {
   margin-top: 12px;
   margin-bottom: 40px;
 }
+
+/* ----------------------------------------модалка-------------------------------------------- */
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -665,10 +668,7 @@ footer {
   background-color: #ffffff;
   border-radius: 4px;
 }
-/* .icon-close {
-  
- 
-} */
+
 .close-btn {
   width: 30px;
   height: 30px;
