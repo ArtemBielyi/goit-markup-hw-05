@@ -480,9 +480,9 @@ img {
 .sheet {
   flex-basis: calc((100% - 60px) / 3);
 
-  /* transition-property: box-shadow; */
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sheet:hover {
